@@ -1,0 +1,29 @@
+name: Node.js Continuous Deployment
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 * * * *' # This triggers the workflow every hour
+
+jobs:
+  build-and-start:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+        
+    - name: Install dependencies
+      run: npm install || yarn install
+      
+    - name: Start application
+      run: |
+        nohup npm start &
+        sleep 3599 # Run for nearly 1 hour to ensure it restarts before the 6-hour limit
