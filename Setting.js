@@ -44,7 +44,7 @@ global.audio = '' ;
 global.video = '' ;
 global.lol   = 'GataDios'
 global.cali  = `lykoUzNh`
-global.devs  = "923466319114";
+global.devs  = "2347039570336";
 global.inrl_key = `inrl-bot-mdaqz3ks6md7`;
 global.inrl_api = `https://upper-romy-inrl-bot.koyeb.app/`;
 global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
@@ -58,14 +58,14 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
-global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
+global.owner = process.env.OWNER_NUMBER  || '2347039570336' ;  // ADD YOUR NUMBER WITHOUT +
+global.mongodb = process.env.MONGODB_URI || "mongodb://u67wtnui9m87lq4yhmvv:tpelVygzO9NWafGwF0D@bmrkwjjqyq2xfesqxn7z-mongodb.services.clever-cloud.com:2052/bmrkwjjqyq2xfesqxn7" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
 
 
 //======================[YOUR CHOICE, CHANGE OR LEAVE IT SAME]=====================
-global.sudo  =  process.env.SUDO || "923466319114" ;          // DON'T REMOVE
+global.sudo  =  process.env.SUDO || "2347039570336" ;          // DON'T REMOVE
 global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
 global.gurl  = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg' ;
@@ -75,11 +75,11 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6
 module.exports = {
 
   //==============================[COMPULSORY]=====================================
-  sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
+  sessionName: process.env.SESSION_ID || 'SIGMA;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicU1McWd3OS8rOC9WWlloaXNUZkg0TEMvT21UTVlZbXNZaTV4N1Z4Q3VHYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiKzZhL2FtbXlRWU9CKzZDWm91Z0wrTGR3UmwzR2JuMExJMkVoazFuclZWcz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLTnVuRy9zUTlWVGpsOEpWRDk4a0U1bmZBOUMrOWp1VjVkeDFrSGZnMjFBPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqZWlJRUFSVFZRZXBibHM1T3ZJTGdEMXh5TzZQVGYzQVNqWVBMK2tkSHprPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9CbFpSK0NsV1A0TitEdVlDd2tpMy9sdW9PZE9ORS9BOEI4QkFyenlTblE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InJSbHhadUlZNmM2Q1ZwVnpqWnI0K055M1lZMFJoQUxmTHNkeUprNCtPbDg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUNiOTIrZWlETVdBVDVPRGcyZjBLRzQzbEtQYlZBaVlxc0RsOHlTUEZFQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiN3RONXZOK2ZXTkFuSll2QmNqMThuWEE3OW9RcjQyNjRBeTFVMjZFU2lpbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlZ4OEFuNGlrTmN0RWcwWk9CQmZRZWRHVFVCK3lCVDRIdXVVR2tKQ0R1SU53R0FZbmxGVng3clJLcDBVMytYSm5WU1BDQkhHV1N6Q1NiWnd0NmJkY2dnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OCwiYWR2U2VjcmV0S2V5IjoiS1UvcG9xaE5vZ0dIa1ZwWG05eGFtWitZRGRTbGFCVTcvTmYwb1hzajZJTT0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiSTlEaTFfbUpUSnFweWFhMDZtS21SUSIsInBob25lSWQiOiI5NTRjNjM2Yi0zOWJkLTQxNTYtYWYyYS1mOTExYmY3NzI1MmYiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOXJiMmZhd25rR1U1NmM1SHpVU0luSXF6RXJFPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZnT2lqMHFVWVdUaVdXcnRLQ1FuMGFkZ21iUT0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJOWFFEVDFXTiIsIm1lIjp7ImlkIjoiMjM0OTAxMzYxMjg0MDozQHMud2hhdHNhcHAubmV0IiwibGlkIjoiMjQ4ODU5MTc5NjM4OTM2OjNAbGlkIiwibmFtZSI6IkRhbm558J+ngCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTmVGa1lVR0VPRDFpN1FHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiUEpwTVBTTExrK3ZCc203S1d3Y2hEVlRMZGFIajVFOXpqM08rQ0wvb2tHWT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiSzVrYlE0dVFVMklyaFNxM3U5b2FGTm1GRDF1TlBITFMxM1l5dVUzcVlJeWR6SEpoQ0d5SnJYTWxGRHg1cTQzQU5vT1VMRUNCN2djb2dseXlyTzNoaUE9PSIsImRldmljZVNpZ25hdHVyZSI6IkVIWFpDUWU3VGQ1Y3VjMTdlaGpRS3hkTUNyenJVenBQT2ZRN2t5anBEbVpibmtjMWJFODdWMnRLRGZvT0FlOCtQVHdaN3BvdWFLcDQxOUdFRWp0emp3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0OTAxMzYxMjg0MDozQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlR5YVREMGl5NVByd2JKdXlsc0hJUTFVeTNXaDQrUlBjNDl6dmdpLzZKQm0ifX1dLCJwbGF0Zm9ybSI6ImlwaG9uZSIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0FrSUN3PT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE5ODU5OTQ5LCJsYXN0UHJvcEhhc2giOiIyV1VqbVoiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUdOcyJ9',              // PUT YOUR SESSION ID
   botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
   ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
   HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
-  WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
+  WORKTYPE: process.env.WORKTYPE      || 'private',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
 
